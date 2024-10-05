@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'CursedTimer';
+    src: url('CursedTimerUlil-Aznm.ttf');
+}
+
+body {
+    max-width: 80%;
+    min-width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-attachment: fixed;
+    background-image: linear-gradient(#90dbf4, #b8c0ff);
+}
+
+.title {
+    text-align: center;
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #293241;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #006494;
+    margin: 10px;
+    border-radius: 6px;
+    border: 2px solid #293241;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.reset {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.home {
+    padding: 20px;
+}
+
+.guest {
+    padding: 20px;
+}
+
+.home-title {
+    display: flex;
+    justify-content: center;
+    color: #ffe8d6;
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+    text-shadow: 0px 4px 5px #4B5563;
+}
+
+#home-score,
+#guest-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aquamarine;
+    background-color: black;
+    border-radius: 4px;
+    height: 80px;
+    margin: 20;
+    font-family: 'CursedTimer';
+    font-size: 40px;
+    border: 2px solid gray;
+}
+
+.guest-title {
+    display: flex;
+    justify-content: center;
+    color: #ffe8d6;
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+    text-shadow: 0px 4px 5px #4B5563;
+}
+
+.homePoints1,
+.homePoints2,
+.homePoints3,
+.guestPoints1,
+.guestPoints2,
+.guestPoints3 {
+    color: #00a8e8;
+    margin: 20px 0;
+    font-family: 'CursedTimer';
+    background-color: black;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+.reset-btn {
+    color: #293241;
+    background-color: #90dbf4;
+    font-family: "Afacad Flux", sans-serif;
+    border-radius: 4px;
+    border: 2px solid #0fa3b1;
+}
